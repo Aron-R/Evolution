@@ -1,0 +1,231 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>kinda wanna cry</title>
+    <!-- Importing css  -->
+    <link rel="stylesheet" href="navbar.css">
+    <link rel="stylesheet" href="hover_bubbles.css">
+    <style>
+        body{
+            background-color: #a2d2ff;
+        }
+        #title{
+            font-family: Raleway, sans-serif;
+            
+            
+            font-family: Raleway, sans-serif;
+            font-weight: 200;
+            text-transform: uppercase;
+            background-color: rgba(255, 255, 255, .75);
+            font-size: x-large;
+            padding: 1em 2em;
+            line-height: 1.5;
+            width: fit-content;
+        }
+
+        .content-container 
+        {
+            background-color: rgba(255, 255, 255, .75);
+            padding: 1em 2em;
+            width: 95%;
+        }
+
+        
+        .move{
+        background-color: #343A40;
+        border-radius: 16px;  
+        color: #fff;
+        cursor: pointer;
+        padding: 12px 32px; 
+        }
+        .move:hover{
+        background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+        animation:slide 3s linear infinite;
+        }
+        @keyframes slide { 
+        to {
+            background-position:20vw;
+        }
+        }
+
+    </style>
+</head>
+<body>
+    <!-- ######### NAV BAR ######### -->
+    <header class="header">
+        <h1 class="logo"><a href="index.html">Evolution</a></h1>
+      <ul class="main-nav">
+          <li><a href="index.html">Home</a></li>
+          <!-- <li><a href="history.html">History</a></li> -->
+
+          <!-- <li><a href="mechanism.html">Mechanisms</a></li>
+          <li><a href="microevolution.html">Microevolution</a></li> -->
+      </ul>
+      <div class="dropdown">
+        <button class="dropbtn">History 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="history.html#family_tree">The Family Tree</a> 
+            <a href="history.html#eukaryota">Eukaryota</a>
+            <a href="history.html#bacteria">Bacteria</a>
+            <a href="history.html#Archaea">Archaea</a>
+        </div>
+        </div>
+        <div class="dropdown">
+            <button class="dropbtn">Mechanisms 
+              <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="mechanism.html#descent">Descent with modification</a> 
+                <a href="mechanism.html#natural_selection">Natural Selection</a>
+                <a href="mechanism.html#mechanisms_of_change">Mechanisms of Change</a>
+            </div>
+            </div>
+        <div class="dropdown">
+            <button class="dropbtn">Microevolution 
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="microevolution.html#define_microevolution">Definition</a> 
+                <a href="microevolution.html#detecting_microevolution">Detecting Microevolution</a>
+                <a href="microevolution.html#mechanisms_of_change">Mechanisms of Change</a>
+            </div>
+            </div>
+      <div class="dropdown">
+        <button class="dropbtn">Macroevolution 
+          <i class="fa fa-caret-down"></i>
+        </button>
+        <div class="dropdown-content">
+            <a href="macroevolution.html#macro_vs_micro">Macroevolution VS Microevolution</a> 
+            <a href="macroevolution.html#patterns_in_micro">Patterns in Macroevolution</a>
+        </div>
+        </div>
+    
+    </header> 
+    <!-- ######### NAV BAR ######### -->
+
+    <!-- ######### Banner ######### -->
+    <iframe src="animation.html" marginwidth="0" frameborder="0" height="90%"" width="100%"></iframe>
+    <!-- ######### Banner ######### -->
+
+    <a href=""></a>
+    <!-- ######### Introduction ######### -->
+    <h1 id="title"> Introduction</h1>
+
+    <div class="content-container" id="Introduction"">
+        <p> The core concepts of evolution are that life has a past — that it has evolved over time — and that different species have common ancestors. 
+
+            <br> Here you can learn about how "family trees" show evolutionary change and relationships, 
+            how these trees are formed, and how this knowledge affects biological classification. 
+            You'll also find an evolutionary timeline and details on some key events in life's history, such as human evolution and the origin of life.</p>
+            
+            <br>
+            
+    </div> <br> <br>
+
+    
+
+   
+    <div class="content">
+        <div class="circle">
+          <div class="circle_title">
+            <h2>History</h2>
+            <h3>Change over time and shared ancestors</h3>
+          </div>
+          <div class="circle_inner">
+            <div class="circle_inner__layer"> </div>
+            <div class="circle_inner__layer">
+              <a href="history.html"><img src="images/history.png"/> </a>
+            </div>
+          </div>
+          <div class="content_shadow"></div>
+        </div>
+      </div>
+    </div>
+
+    
+    <div class="content">
+        <div class="circle">
+          <div class="circle_title">
+            <h2>Mechanisms</h2>
+            <h3>Selection, Mutation, Migration and more</h3>
+          </div>
+          <div class="circle_inner">
+            <div class="circle_inner__layer"> </div>
+            <div class="circle_inner__layer">
+              <a href="mechanism.html"><img src="images/mechanisms.png"/> </a>
+            </div>
+          </div>
+          <div class="content_shadow"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+        <div class="circle">
+          <div class="circle_title">
+            <h2>Microevolution</h2>
+            <h3>Evolution within a population</h3>
+          </div>
+          <div class="circle_inner">
+            <div class="circle_inner__layer"> </div>
+            <div class="circle_inner__layer">
+              <a href="microevolution.html"><img src="images/microevolution.png"/> </a>
+            </div>
+          </div>
+          <div class="content_shadow"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="content">
+        <div class="circle">
+          <div class="circle_title">
+            <h2>Macroevolution</h2>
+            <h3>Evolution above the species level</h3>
+          </div>
+          <div class="circle_inner">
+            <div class="circle_inner__layer"> </div>
+            <div class="circle_inner__layer">
+              <a href="macroevolution.html"><img src="images/macroevolution.png"/> </a>
+            </div>
+          </div>
+          <div class="content_shadow"></div>
+        </div>
+      </div>
+    </div>
+    <a>
+    <h1 id="title"> The Father of the Evolution Theory</h1>
+</a>
+    <div class="content-container"id="father_of_evolution" >
+        
+        <center>
+            <figure>
+                <img src="images/charles darwin.png" alt="Charles Darwin" style="border-radius: 50%;" width="20%" height="35%">
+                <figcaption> Charles Darwin </figcaption>
+            </figure>
+        </center>
+        
+
+        <p style="margin: 5%;">
+            Charles Darwin was born in 1809 to a wealthy middle-class English family (Wall 2003). Expected to follow in his father’s and grandfather’s footsteps, Darwin was sent to the University of Edinburgh to acquire the knowledge to become a physician. His medical interests did not last long, and after only one year he dropped out of school. Wanting a respectable future for his son, Darwin’s father sent him to the University of Cambridge to study for the ministry. Although without enthusiasm, Darwin at that time had whole-heartedly believed in the words of the Bible (Bowler 1983, 1989), and entered the school prepared to follow the reasoning of Reverend Paley’s Design Argument. In the words of Paley himself, this argument can be described as follows, <br> <br>
+
+        Living organisms are complicated in a degree which exceeds all computation. How else to account for the often amazing adaptations of animals and plants? Only an intelligent Designer could have created them. That designer must have been a person. That person is GOD (Paley 1802). <br><br> 
+        
+        Though Darwin took up the study of Natural Theology as an avid admirer of the Design Argument, it would not be long before Darwin renounces this belief that God created all the species on earth due to his own observations of imperfections in the design, which would not be possible if there were a benevolent Creator (Hartwig 2003). Upon entering Cambridge University Darwin became good friends with the botanist Reverend Henslow. This friendship would eventually allow Darwin the opportunity to embark on a voyage with the H.M.S. Beagle as a gentleman-naturalist. When Reverend Henslow was asked by Captain Fitzroy of the Beagle to recommend a wealthy, well-educated man to observe and take notes on all flora, fauna, and geological findings during the course of the journey, Henslow strongly suggested Darwin. With the alternative of taking up the position of a country parson at the end of his education, Darwin eagerly agreed to fill the opening aboard the Beagle. In accepting the position of being a gentleman-naturalist, Darwin unknowingly also opened the door to a scientific revolution and would lay down the foundation for future biological studies.
+        </p>
+         <br><br><br><br>
+
+    </div>
+    <br>
+    <br>
+    <center> <a href="history.html" class="move" style="padding: right 10em;;"> Next</a> </center>
+    
+    <br><br><br>
+    
+    
+</body>
+</html>

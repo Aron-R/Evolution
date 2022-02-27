@@ -1,0 +1,39 @@
+body{
+    background-color: #a2d2ff;
+}
+#title{
+    font-family: Raleway, sans-serif;
+    font-weight: 200;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, .75);
+    font-size: x-large;
+    padding: 1em 2em;
+    line-height: 1.5;
+    width: fit-content;
+}
+
+.content-container 
+{
+    background-color: rgba(255, 255, 255, .75);
+    padding: 1em 2em;
+    width: 95%;
+    
+}
+
+
+.move{
+background-color: #343A40;
+border-radius: 16px;  
+color: #fff;
+cursor: pointer;
+padding: 12px 32px; 
+}
+.move:hover{
+background-image: linear-gradient(90deg, #00C0FF 0%, #FFCF00 49%, #FC4F4F 80%, #00C0FF 100%);
+animation:slide 3s linear infinite;
+}
+@keyframes slide { 
+to {
+    background-position:20vw;
+}
+}
